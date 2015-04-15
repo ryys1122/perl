@@ -1,3 +1,7 @@
+#!/usr/bin/env perl
+#$1 scaffold or config file
+#$2 scaffold or config file which sequence is split by N,for example scaffold1 _1,scaffold1 _2
+#$3 statistics information,include N50,N90.etc,sequnce which length is less than 500bp is ignored
 open FL,"@ARGV[0]";
 open FLSA,">@ARGV[1]";
 open FLSB,">@ARGV[2]";
